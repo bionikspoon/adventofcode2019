@@ -81,5 +81,5 @@ RSpec.configure do |config|
   # as the one that triggered the failure.
   Kernel.srand config.seed
 
-  config.pattern = '../01-*/**{,/*/**}/*_spec.rb'
+  config.pattern = '../[0-9]{2}-*/**{,/*/**}/*_spec.rb'
 end
